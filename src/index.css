@@ -8,35 +8,52 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Cyber Dark Theme */
+    --background: 220 27% 8%;
+    --foreground: 190 100% 95%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 220 25% 10%;
+    --card-foreground: 190 100% 95%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 220 25% 10%;
+    --popover-foreground: 190 100% 95%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 189 100% 50%;
+    --primary-foreground: 220 27% 8%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 220 25% 15%;
+    --secondary-foreground: 190 100% 95%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 220 25% 15%;
+    --muted-foreground: 190 20% 65%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 189 100% 50%;
+    --accent-foreground: 220 27% 8%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 190 100% 95%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 220 25% 15%;
+    --input: 220 25% 15%;
+    --ring: 189 100% 50%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
+
+    /* Cyber Theme Custom Variables */
+    --cyber-primary: 189 100% 50%;
+    --cyber-secondary: 285 100% 65%;
+    --cyber-accent: 166 100% 50%;
+    --cyber-warning: 45 100% 65%;
+    
+    /* Gradients */
+    --gradient-cyber: linear-gradient(135deg, hsl(var(--cyber-primary)), hsl(var(--cyber-secondary)));
+    --gradient-shield: linear-gradient(145deg, hsl(var(--cyber-accent)), hsl(var(--cyber-primary)));
+    --gradient-card: linear-gradient(145deg, hsl(var(--card)), hsl(220 25% 12%));
+    
+    /* Shadows & Glows */
+    --shadow-cyber: 0 10px 40px -10px hsl(var(--cyber-primary) / 0.3);
+    --glow-cyber: 0 0 30px hsl(var(--cyber-primary) / 0.4);
+    --glow-accent: 0 0 20px hsl(var(--cyber-accent) / 0.3);
 
     --sidebar-background: 0 0% 98%;
 
